@@ -2,7 +2,7 @@
 # Team JainStreet Strategy Overview
 
 
-This repository hosts the trading bot that secured 9th place in the manual‑trading section and 138th place overall in the IMC Prosperity 3 competition. Each strategy resides in its own class and the `Trader` class decides which combination to deploy in real time. The outline below captures the essential logic of every module without exposing proprietary parameter values.
+This repository hosts the trading bot that secured **9th place in the manual‑trading** section and **138th place overall** in the IMC Prosperity 3 competition. Each strategy resides in its own class and the `Trader` class decides which combination to deploy in real time. The outline below captures the essential logic of every module without exposing proprietary parameter values.
 
 ## ResinStrategy (RAINFOREST_RESIN)
 A pure market‑making engine for RAINFOREST_RESIN. It computes a short‑term fair value from recent quotes and submits or removes liquidity whenever the bid–ask spread drifts outside a predefined band. Inventory is bounded by soft and hard limits.
